@@ -7,5 +7,6 @@ import com.vanessa.cursomc.repositories.ProdutoRepository;
 public class ProdutoService {
 	
 	@Autowired
-	ProdutoRepository produtoRepository;
+	private ProdutoRepository produtoRepository;
+	
 }
