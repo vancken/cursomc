@@ -10,10 +10,10 @@ import com.vanessa.cursomc.repositories.CategoriaRepository;
 public class CategoriaService {
 	
 	@Autowired
-	private CategoriaRepository repo;
+	private CategoriaRepository categoriaRepository;
 	
 	public Categoria buscar(Integer id) {
-		Categoria obj = repo.findOne(id);
+		Categoria obj = categoriaRepository.findOne(id);
 		return obj;
 	}
 
